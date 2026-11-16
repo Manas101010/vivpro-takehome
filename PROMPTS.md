@@ -851,3 +851,47 @@ Do not email the submission. Do not implement new features.
 ```
 
 </details>
+
+## P10 — Final verification, commit, and push
+
+The engineer authorized final verification and submission of the approved reflection revision.
+
+**Time budget.** I estimate that I exceeded the suggested three-hour budget. Reviewing AI recommendations and verifying the results took extra time.
+
+<details>
+<summary>Original prompt</summary>
+
+```text
+# P10 — FINAL VERIFICATION, COMMIT AND PUSH
+
+The implementation, code review, and documentation are complete. REFLECTION.md has received its final approved revision.
+
+I authorize final verification, Git commits, and pushing to my existing GitHub remote.
+
+This is deadline-critical. Do not begin another development or planning phase.
+
+1. Confirm the current branch, Git remote, and working-tree status.
+2. Ensure all required source files, original song datasets, normalized catalog, audit JSON, tests, requirements.txt, and Markdown deliverables are present.
+3. If the previously approved brief time-budget disclosure is missing from PROMPTS.md, add it accurately. Record this P10 prompt as an actual prompt without inventing earlier history.
+4. Run the complete pytest suite and git diff --check.
+5. Stage only the required submission files. Inspect the staged filenames to ensure no TAKE_HOME.pdf, ZIPs, .venv, caches, secrets, or unrelated files are included.
+6. Create ONE honest commit for the completed work. Do not manufacture earlier milestone commits or backdate history.
+7. Push normally to origin/main. Do not force-push.
+8. Verify the remote branch is synchronized and the working tree is clean.
+
+If a critical check fails, report the exact blocker rather than claim success.
+
+Do not implement ratings, modify the backend unnecessarily, or add features.
+
+Return only:
+
+- Test result
+- Commit hash
+- Push success or failure
+- Remote repository URL
+- Remaining blockers, if any
+
+Do not send the submission email. Stop after successful verification and push.
+```
+
+</details>
